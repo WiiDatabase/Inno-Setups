@@ -3,8 +3,8 @@
 
 #define MyAppName "Wii Backup Manager"
 #define MyAppVersion "0.4.6 build 79"
-#define MyAppPublisher "fig2k4"
-#define MyAppURL "http://www.wiibackupmanager.co.uk/"
+#define MyAppPublisher "fig2k4 (Installer: WiiDatabase Team)"
+#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/wii-backup-manager/"
 #define MyAppExeName "WiiBackupManager.exe"
 
 [Setup]
@@ -24,7 +24,6 @@ DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 LicenseFile=gpl-3.0.txt
 InfoBeforeFile=Wii-Backup-Manager\changelog.txt
-OutputDir=output
 OutputBaseFilename=WiiBackupManager-setup
 SetupIconFile=icon.ico
 Compression=lzma
