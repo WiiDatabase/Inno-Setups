@@ -1,0 +1,1 @@
+WiiDataDownloader Setup==================Dieses Setup installiert den **[WiiDataDownloader](http://wdd.wiidatabase.de)**. Installiert in:    C:\Program Files (x86)\WiiDataDownloader
