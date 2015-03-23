@@ -1,1 +1,1 @@
-WiiDataDownloader Setup==================Dieses Setup installiert den **[WiiDataDownloader](http://wdd.wiidatabase.de)**. Installiert in:    C:\Program Files (x86)\WiiDataDownloader
+WiiDataDownloader Setup==================Dieses Setup installiert den **[WiiDataDownloader](http://wdd.wiidatabase.de)**. Installiert in:    C:\Program Files (x86)\WiiDataDownloaderDas [Inno Setup Download-Plugin](https://code.google.com/p/inno-download-plugin/) muss installiert sein.
