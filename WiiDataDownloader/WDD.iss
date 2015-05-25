@@ -22,7 +22,7 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=gpl-3.0.txt
+LicenseFile=mpl-v2.0.txt
 OutputBaseFilename=WDD-setup
 SetupIconFile=icon.ico
 Compression=lzma
@@ -41,7 +41,7 @@ Type: filesandordirs; Name: "{app}\Support"
 Type: files; Name: "{app}\download.bat"
 Type: files; Name: "{app}\Starte WDD.bat"
 Type: files; Name: "{app}\WDD.bat"
-Type: files; Name: "{app}\LICENSE.md"
+Type: files; Name: "{app}\LICENSE.txt"
 Type: files; Name: "{app}\README.md"
 Type: dirifempty; Name: "{app}"
 
