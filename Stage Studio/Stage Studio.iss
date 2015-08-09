@@ -19,6 +19,7 @@ AllowNoIcons=yes
 OutputBaseFilename=Stage-Studio-setup
 SetupIconFile=icon.ico
 Compression=lzma
+UninstallDisplayIcon={uninstallexe}
 SolidCompression=yes
 
 [Languages]
