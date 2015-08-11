@@ -21,7 +21,9 @@ InfoBeforeFile=CustomizeMii\Readme.txt
 OutputBaseFilename=CustomizeMii-setup
 SetupIconFile=icon.ico
 Compression=lzma
+AppComments=Kanäle für die Wii erstellen und bearbeiten
 UninstallDisplayIcon={uninstallexe}
+DisableWelcomePage=True
 SolidCompression=yes
 
 [Languages]

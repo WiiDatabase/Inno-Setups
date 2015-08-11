@@ -14,12 +14,14 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={userappdata}\{#MyAppName}
-DefaultGroupName={#MyAppName}
+DefaultGroupName=Wii-Tools
 AllowNoIcons=yes
 OutputBaseFilename=Stage-Studio-setup
 SetupIconFile=icon.ico
 Compression=lzma
+AppComments=Stage Studio von Super Smash Bros. Brawl für den PC
 UninstallDisplayIcon={uninstallexe}
+DisableWelcomePage=True
 SolidCompression=yes
 
 [Languages]

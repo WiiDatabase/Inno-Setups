@@ -14,15 +14,17 @@ AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={userappdata}\{#MyAppName}
-DefaultGroupName={#MyAppName}
+DefaultGroupName=Wii-Tools
 AllowNoIcons=yes
 LicenseFile=gpl-2.0.txt
-InfoBeforeFile=ShowMiiWads 1.4\Readme.txt
+InfoBeforeFile=ShowMiiWads\Readme.txt
 OutputBaseFilename=ShowMiiWads-setup
 SetupIconFile=icon.ico
 Compression=lzma
 SolidCompression=yes
+AppComments=WAD-Dateien und den NAND ansehen und editieren
 UninstallDisplayIcon={uninstallexe}
+DisableWelcomePage=True
 ArchitecturesInstallIn64BitMode=x64
 
 [Languages]
@@ -33,13 +35,12 @@ Name: "german"; MessagesFile: "compiler:Languages\German.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "ShowMiiWads 1.4\ShowMiiWads_64.exe"; DestDir: "{app}"; DestName: "ShowMiiWads.exe"; Flags: ignoreversion; Check: Is64BitInstallMode
-Source: "ShowMiiWads 1.4\ShowMiiWads_32.exe"; DestDir: "{app}"; DestName: "ShowMiiWads.exe"; Flags: ignoreversion; Check: not Is64BitInstallMode
-Source: "ShowMiiWads 1.4\example.slang"; DestDir: "{app}"; Flags: ignoreversion
-Source: "ShowMiiWads 1.4\FAQ.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
-Source: "ShowMiiWads 1.4\License.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "ShowMiiWads 1.4\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
-; NOTE: Don't use "Flags: ignoreversion" on any shared system files
+Source: "ShowMiiWads\ShowMiiWads_64.exe"; DestDir: "{app}"; DestName: "ShowMiiWads.exe"; Flags: ignoreversion; Check: Is64BitInstallMode
+Source: "ShowMiiWads\ShowMiiWads_32.exe"; DestDir: "{app}"; DestName: "ShowMiiWads.exe"; Flags: ignoreversion; Check: not Is64BitInstallMode
+Source: "ShowMiiWads\example.slang"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShowMiiWads\FAQ.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
+Source: "ShowMiiWads\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShowMiiWads\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
