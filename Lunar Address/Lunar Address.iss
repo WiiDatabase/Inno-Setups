@@ -1,11 +1,11 @@
-#define MyAppName "Lunar Magic"
-#define MyAppVersion "2.32"
+#define MyAppName "Lunar Address"
+#define MyAppVersion "1.04"
 #define MyAppPublisher "FuSoYa (Installer: WiiDatabase Team)"
 #define MyAppURL "http://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/"
-#define MyAppExeName "Lunar Magic.exe"
+#define MyAppExeName "Lunar Address.exe"
 
 [Setup]
-AppId={{21D09EC2-285F-4559-8631-473F4A4F3141}
+AppId={{BDE1B92A-13DE-49EC-8EF0-A4127C5D0873}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppVerName={#MyAppName} {#MyAppVersion}
@@ -16,11 +16,11 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={userappdata}\Lunar-Tools\{#MyAppName}
 DefaultGroupName=Lunar-Tools
 AllowNoIcons=yes
-OutputBaseFilename=Lunar-Magic-setup
+OutputBaseFilename=Lunar-Address-setup
 SetupIconFile=icon.ico
 Compression=lzma
 SolidCompression=yes
-AppComments=Level-Editor für Super Mario World
+AppComments=SNES-Adress Konversations-Tool
 UninstallDisplayIcon={uninstallexe}
 DisableWelcomePage=True
 
@@ -32,9 +32,8 @@ Name: "german"; MessagesFile: "compiler:Languages\German.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "Lunar-Magic\Lunar Magic.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "Lunar-Magic\Lunar Magic.chm"; DestDir: "{app}"; Flags: ignoreversion
-Source: "Lunar-Magic\readme.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
+Source: "Lunar-Address\Lunar Address.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "Lunar-Address\readme.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"

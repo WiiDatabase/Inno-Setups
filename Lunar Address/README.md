@@ -1,0 +1,1 @@
+Lunar Adress Setup==================Dieses Setup installiert **[Lunar Address](http://fusoya.eludevisibility.org/la/index.html)**. Installiert in:    %APPDATA%\Lunar-Tools\Lunar AddressPlatziere das Release *v1.04* in den Ordner Lunar-Adress, welcher ein Unterordner dieses Ordners ist (bspw.: *Lunar Address\Lunar-Address\Lunar Address.exe*).

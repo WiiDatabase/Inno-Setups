@@ -1,0 +1,1 @@
+Lunar IPS Setup==================Dieses Setup installiert **[Lunar IPS](http://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/)**. Installiert in:    %APPDATA%\Lunar-Tools\Lunar IPSPlatziere das Release *v1.02* in den Ordner Lunar-IPS, welcher ein Unterordner dieses Ordners ist (bspw.: *Lunar IPS\Lunar-IPS\Lunar IPS.exe*).
