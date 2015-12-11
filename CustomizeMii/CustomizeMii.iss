@@ -1,5 +1,5 @@
 #define MyAppName "CustomizeMii"
-#define MyAppVersion "3.11"
+#define MyAppVersion "3.11.1"
 #define MyAppPublisher "Leathl (Installer: WiiDatabase Team)"
 #define MyAppURL "http://wiidatabase.de/downloads/pc-tools/customizemii/"
 #define MyAppExeName "CustomizeMii.exe"
