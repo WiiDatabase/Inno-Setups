@@ -1,5 +1,5 @@
 #define MyAppName "Lunar Magic"
-#define MyAppVersion "2.40"
+#define MyAppVersion "2.41"
 #define MyAppPublisher "FuSoYa (Installer: WiiDatabase Team)"
 #define MyAppURL "http://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/"
 #define MyAppExeName "Lunar Magic.exe"
