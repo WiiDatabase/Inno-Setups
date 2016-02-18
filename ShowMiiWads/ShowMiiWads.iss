@@ -1,6 +1,6 @@
 #define MyAppName "ShowMiiWads"
-#define MyAppVersion "1.4"
-#define MyAppPublisher "Leathl (Installer: WiiDatabase Team)"
+#define MyAppVersion "1.5 Mod"
+#define MyAppPublisher "Leathl, orwel (Installer: WiiDatabase Team)"
 #define MyAppURL "http://wiidatabase.de/downloads/pc-tools/showmiiwads/"
 #define MyAppExeName "ShowMiiWads.exe"
 
@@ -39,8 +39,12 @@ Source: "ShowMiiWads\ShowMiiWads_64.exe"; DestDir: "{app}"; DestName: "ShowMiiWa
 Source: "ShowMiiWads\ShowMiiWads_32.exe"; DestDir: "{app}"; DestName: "ShowMiiWads.exe"; Flags: ignoreversion; Check: not Is64BitInstallMode
 Source: "ShowMiiWads\example.slang"; DestDir: "{app}"; Flags: ignoreversion
 Source: "ShowMiiWads\FAQ.txt"; DestDir: "{app}"; Flags: ignoreversion isreadme
+Source: "ShowMiiWads\libWiiSharp.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "ShowMiiWads\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShowMiiWads\License_libWiiSharp.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShowMiiWads\Readme_libWiiSharp.txt"; DestDir: "{app}"; Flags: ignoreversion
 Source: "ShowMiiWads\Readme.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "ShowMiiWads\external\*"; DestDir: "{app}\external"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
