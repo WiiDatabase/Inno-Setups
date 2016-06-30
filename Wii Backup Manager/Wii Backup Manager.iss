@@ -1,7 +1,7 @@
 #define MyAppName "Wii Backup Manager"
 #define MyAppVersion "0.4.6 build 79"
 #define MyAppPublisher "fig2k4 (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/wii-backup-manager/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/wii-backup-manager/"
 #define MyAppExeName "WiiBackupManager.exe"
 
 [Setup]

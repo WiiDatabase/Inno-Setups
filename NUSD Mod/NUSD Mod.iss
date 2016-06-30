@@ -1,7 +1,7 @@
 #define MyAppName "Nintendo Update Server Downloader"
 #define MyAppVersion "1.9 Mod"
 #define MyAppPublisher "WB3000 (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/nus-downloader/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/nus-downloader/"
 #define MyAppExeName "NUS Downloader.exe"
 
 [Setup]

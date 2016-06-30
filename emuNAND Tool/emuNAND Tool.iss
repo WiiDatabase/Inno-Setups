@@ -1,7 +1,7 @@
 #define MyAppName "emuNAND Tool"
 #define MyAppVersion "1.0.3"
 #define MyAppPublisher "n1ghty (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/3ds-downloads/pc-tools/emunand-tool/"
+#define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/emunand-tool/"
 #define MyAppExeName "emuNANDTool.exe"
 
 [Setup]

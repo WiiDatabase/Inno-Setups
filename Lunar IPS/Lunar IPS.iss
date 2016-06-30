@@ -1,7 +1,7 @@
 #define MyAppName "Lunar IPS"
 #define MyAppVersion "1.02"
 #define MyAppPublisher "FuSoYa (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/"
 #define MyAppExeName "Lunar IPS.exe"
 
 [Setup]

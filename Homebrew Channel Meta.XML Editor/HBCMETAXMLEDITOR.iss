@@ -1,7 +1,7 @@
 #define MyAppName "Homebrew Channel MetaXML Editor"
 #define MyAppVersion "1"
 #define MyAppPublisher "WB3000 (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/homebrew-channel-meta-xml-editor/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/homebrew-channel-meta-xml-editor/"
 #define MyAppExeName "Homebrew Channel MetaXML Editor.exe"
 
 [Setup]

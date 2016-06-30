@@ -1,7 +1,7 @@
 #define MyAppName "ShowMiiWads"
 #define MyAppVersion "1.5 Mod"
 #define MyAppPublisher "Leathl, orwel (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/showmiiwads/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/showmiiwads/"
 #define MyAppExeName "ShowMiiWads.exe"
 
 [Setup]

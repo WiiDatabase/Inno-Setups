@@ -1,1 +1,1 @@
-Inno Setups==================Dies sind Setup-Skripte für [Inno Setup](http://www.jrsoftware.org/isinfo.php), welche für Installer verwendet werden, die auf der WiiDatabase downloadbar sind.(c) 2015 [WiiDatabase Team](http://wiidatabase.de)
+Inno Setups==================Dies sind Setup-Skripte für [Inno Setup](http://www.jrsoftware.org/isinfo.php), welche für Installer verwendet werden, die auf der WiiDatabase downloadbar sind.Erstellt von [WiiDatabase.de](https://wiidatabase.de)

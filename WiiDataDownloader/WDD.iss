@@ -3,7 +3,7 @@
 #define MyAppName "WiiDataDownloader"
 #define MyAppVersion "Pre-Alpha"
 #define MyAppPublisher "WiiDatabase Team"
-#define MyAppURL "http://wdd.wiidatabase.de/"
+#define MyAppURL "https://github.com/Brawl345/WiiDataDownloader"
 #define MyAppExeName "Starte WDD.bat"
 
 [Setup]

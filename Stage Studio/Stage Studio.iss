@@ -1,7 +1,7 @@
 #define MyAppName "Stage Studio"
 #define MyAppVersion "v0.08.03"
 #define MyAppPublisher "Xane (Installer: WiiDatabase Team)"
-#define MyAppURL "http://wiidatabase.de/downloads/pc-tools/super-smash-bros-brawl-stage-studio/"
+#define MyAppURL "https://wiidatabase.de/downloads/pc-tools/super-smash-bros-brawl-stage-studio/"
 #define MyAppExeName "StageStudio.exe"
 
 [Setup]
