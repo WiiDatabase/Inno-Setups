@@ -1,0 +1,1 @@
+ModMii Setup==================Dieses Setup installiert **[ModMii](https://wiidatabase.de/downloads/pc-tools/modmii/)**. Installiert in:    %APPDATA%\ModMiiDas [Inno Setup Download-Plugin](https://code.google.com/p/inno-download-plugin/) muss installiert sein.
