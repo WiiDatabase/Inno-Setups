@@ -1,7 +1,7 @@
 #define MyAppName "SocketPunch"
 #define MyAppVersion "1.2.5"
 #define MyAppPublisher "Olmectron (Installer: WiiDatabase Team)"
-#define MyAppURL "hhttps://github.com/Olmectron/SocketPunch"
+#define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/socketpunch/"
 #define MyAppExeName "SocketPunch.jar"
 
 [Setup]
