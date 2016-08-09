@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/ultimate-gbc-vc-injector-for-3ds/"
 
@@ -44,6 +44,10 @@ Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe"; DestDir: "{
 Source: "{#BASE_DIR}\Game-Gear\*.dll"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
 
+Source: "{#BASE_DIR}\NES\Ultimate NES VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\NES\*.dll"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\NES\Ultimate NES VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
+
 [Icons]
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate GBC VC Injector for 3DS"; Filename: "{app}\Ultimate GBC VC Injector for 3DS\Ultimate GBC VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate GBC VC Injector for 3DS"; Filename: "{app}\Ultimate GBC VC Injector for 3DS\Ultimate GBC VC Injector for 3DS.exe"; Tasks: desktopicon
@@ -53,3 +57,6 @@ Name: "{commondesktop}\Ultimate GB VC Injector for 3DS"; Filename: "{app}\Ultima
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate Game Gear VC Injector for 3DS"; Filename: "{app}\Ultimate Game Gear VC Injector for 3DS\Ultimate GG VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate Game Gear VC Injector for 3DS"; Filename: "{app}\Ultimate Game Gear VC Injector for 3DS\Ultimate GG VC Injector for 3DS.exe"; Tasks: desktopicon
+
+Name: "{group}\Ultimate VC Injector for 3DS\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultimate NES VC Injector for 3DS\Ultimate NES VC Injector for 3DS.exe"
+Name: "{commondesktop}\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultimate NES VC Injector for 3DS\Ultimate NES VC Injector for 3DS.exe"; Tasks: desktopicon
