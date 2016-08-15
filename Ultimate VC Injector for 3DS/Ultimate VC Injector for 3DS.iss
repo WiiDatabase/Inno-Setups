@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.4"
+#define MyAppVersion "1.5"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/ultimate-gbc-vc-injector-for-3ds/"
 
@@ -40,6 +40,11 @@ Source: "{#BASE_DIR}\GB\Ultimate GB VC Injector for 3DS.exe"; DestDir: "{app}\Ul
 Source: "{#BASE_DIR}\GB\*.dll"; DestDir: "{app}\Ultimate GB VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\GB\Ultimate GB VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate GB VC Injector for 3DS"; Flags: ignoreversion
 
+Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\GBA\*.dll"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
+
+
 Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\Game-Gear\*.dll"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
@@ -54,6 +59,9 @@ Name: "{commondesktop}\Ultimate GBC VC Injector for 3DS"; Filename: "{app}\Ultim
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate GB VC Injector for 3DS"; Filename: "{app}\Ultimate GB VC Injector for 3DS\Ultimate GB VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate GB VC Injector for 3DS"; Filename: "{app}\Ultimate GB VC Injector for 3DS\Ultimate GB VC Injector for 3DS.exe"; Tasks: desktopicon
+
+Name: "{group}\Ultimate VC Injector for 3DS\Ultimate GBA VC Injector for 3DS"; Filename: "{app}\Ultimate GBA VC Injector for 3DS\Ultimate GBA VC Injector for 3DS.exe"
+Name: "{commondesktop}\Ultimate GBA VC Injector for 3DS"; Filename: "{app}\Ultimate GBA VC Injector for 3DS\Ultimate GBA VC Injector for 3DS.exe"; Tasks: desktopicon
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate Game Gear VC Injector for 3DS"; Filename: "{app}\Ultimate Game Gear VC Injector for 3DS\Ultimate GG VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate Game Gear VC Injector for 3DS"; Filename: "{app}\Ultimate Game Gear VC Injector for 3DS\Ultimate GG VC Injector for 3DS.exe"; Tasks: desktopicon
