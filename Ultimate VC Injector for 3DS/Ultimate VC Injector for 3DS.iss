@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.8"
+#define MyAppVersion "1.9"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/"
 
@@ -42,7 +42,6 @@ Source: "{#BASE_DIR}\GB\Ultimate GB VC Injector for 3DS.exe.config"; DestDir: "{
 
 Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\GBA\*.dll"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
-Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
 
 Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\Game-Gear\*.dll"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
