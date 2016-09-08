@@ -1,7 +1,7 @@
 #include <idp.iss>
 
 #define MyAppName "ModMii"
-#define MyAppVersion "6.4.0"
+#define MyAppVersion "6.4.1"
 #define MyAppPublisher "XFlak (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/downloads/pc-tools/modmii/"
 #define MyAppExeName "ModMii.exe"
@@ -54,7 +54,7 @@ Name: "{commondesktop}\ModMii Skin"; Filename: "{app}\ModMiiSkin.exe"; Tasks: de
 // Download
 procedure InitializeWizard();
 begin
-    idpAddFile('http://ufpr.dl.sourceforge.net/project/modmii/ModMii6.4.0.zip', ExpandConstant('{tmp}\ModMii.zip'));
+    idpAddFile('http://ufpr.dl.sourceforge.net/project/modmii/ModMii6.4.1.zip', ExpandConstant('{tmp}\ModMii.zip'));
 
     idpDownloadAfter(wpReady);
 end;
