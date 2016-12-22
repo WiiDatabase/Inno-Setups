@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.9"
+#define MyAppVersion "1.10"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/"
 
@@ -19,7 +19,7 @@ OutputBaseFilename=Ultimate-VC-Injector-for-3DS-setup
 SetupIconFile=icon.ico
 Compression=lzma
 SolidCompression=yes
-AppComments=Spiele in 3DS Virtual-Console-Spiele injizieren
+AppComments=Spiele in 3DS-Virtual-Console-Spiele injizieren
 UninstallDisplayIcon={uninstallexe}
 DisableWelcomePage=True
 
@@ -41,6 +41,7 @@ Source: "{#BASE_DIR}\GB\*.dll"; DestDir: "{app}\Ultimate GB VC Injector for 3DS"
 Source: "{#BASE_DIR}\GB\Ultimate GB VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate GB VC Injector for 3DS"; Flags: ignoreversion
 
 Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\GBA\Ultimate GBA VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\GBA\*.dll"; DestDir: "{app}\Ultimate GBA VC Injector for 3DS"; Flags: ignoreversion
 
 Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate Game Gear VC Injector for 3DS"; Flags: ignoreversion
@@ -50,6 +51,9 @@ Source: "{#BASE_DIR}\Game-Gear\Ultimate GG VC Injector for 3DS.exe.config"; Dest
 Source: "{#BASE_DIR}\NES\Ultimate NES VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\NES\*.dll"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\NES\Ultimate NES VC Injector for 3DS.exe.config"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion
+
+Source: "{#BASE_DIR}\SNES\Ultimate SNES VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate SNES VC Injector for 3DS"; Flags: ignoreversion
+Source: "{#BASE_DIR}\SNES\*.dll"; DestDir: "{app}\Ultimate SNES VC Injector for 3DS"; Flags: ignoreversion
 
 Source: "{#BASE_DIR}\T16-PCE\Ultimate T16-PCE VC Injector for 3DS.exe"; DestDir: "{app}\Ultimate T16-PCE VC Injector for 3DS"; Flags: ignoreversion
 Source: "{#BASE_DIR}\T16-PCE\*.dll"; DestDir: "{app}\Ultimate T16-PCE VC Injector for 3DS"; Flags: ignoreversion
@@ -70,6 +74,9 @@ Name: "{commondesktop}\Ultimate Game Gear VC Injector for 3DS"; Filename: "{app}
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultimate NES VC Injector for 3DS\Ultimate NES VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultimate NES VC Injector for 3DS\Ultimate NES VC Injector for 3DS.exe"; Tasks: desktopicon
+
+Name: "{group}\Ultimate VC Injector for 3DS\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"
+Name: "{commondesktop}\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"; Tasks: desktopicon
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS"; Filename: "{app}\Ultimate T16-PCE VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS.exe"
 Name: "{commondesktop}\Ultimate T16-PCE VC Injector for 3DS"; Filename: "{app}\Ultimate T16-PCE VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS.exe"; Tasks: desktopicon
