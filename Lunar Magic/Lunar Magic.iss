@@ -1,5 +1,5 @@
 #define MyAppName "Lunar Magic"
-#define MyAppVersion "2.42"
+#define MyAppVersion "2.43"
 #define MyAppPublisher "FuSoYa (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/"
 #define MyAppExeName "Lunar Magic.exe"
@@ -18,7 +18,7 @@ DefaultGroupName=Lunar-Tools
 AllowNoIcons=yes
 OutputBaseFilename=Lunar-Magic-setup
 SetupIconFile=icon.ico
-Compression=lzma
+Compression=lzma2/ultra64
 SolidCompression=yes
 AppComments=Level-Editor für Super Mario World
 UninstallDisplayIcon={uninstallexe}
