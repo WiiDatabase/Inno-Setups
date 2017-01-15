@@ -1,5 +1,5 @@
 #define MyAppName "Nintendont-Updater"
-#define MyAppVersion "1.2.1.1"
+#define MyAppVersion "1.2.1.2"
 #define MyAppPublisher "WiiDatabase Team"
 #define MyAppURL "https://wiidatabase.de/downloads/pc-tools/nintendont-updater/"
 #define MyAppExeName "Nintendont-Updater.exe"
@@ -19,7 +19,7 @@ AllowNoIcons=yes
 LicenseFile=mpl-2.0.txt
 OutputBaseFilename=Nintendont-Updater-setup
 SetupIconFile=icon.ico
-Compression=lzma
+Compression=lzma2
 SolidCompression=yes
 AppComments=Aktualisiert Nintendont vollautomatisch
 UninstallDisplayIcon={uninstallexe}
