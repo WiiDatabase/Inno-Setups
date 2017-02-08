@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.13"
+#define MyAppVersion "1.14"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/"
 
