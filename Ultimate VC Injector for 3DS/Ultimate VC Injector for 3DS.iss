@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.14"
+#define MyAppVersion "1.15"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/"
 
@@ -40,6 +40,7 @@ Name: "GameGear"; Description: "Game Gear Injector"; Types: full injector
 Name: "MegaDrive"; Description: "Genesis/Mega Drive Forwarder Maker"; Types: full forwarder
 Name: "NES"; Description: "NES Injector"; Types: full injector
 Name: "SNES"; Description: "SNES Injector (New3DS)"; Types: full injector
+Name: "SNESFWDM"; Description: "SNES Forwarder Maker (New3DS)"; Types: full forwarder
 Name: "T16"; Description: "TurboGrafx16/PC Engine Injector"; Types: full injector
 Name: "Web"; Description: "Web Forwarder Maker"; Types: full forwarder
 
@@ -55,6 +56,7 @@ Source: "{#BASE_DIR}\Game-Gear\*"; DestDir: "{app}\Ultimate Game Gear VC Injecto
 Source: "{#BASE_DIR}\GEN-MD\*"; DestDir: "{app}\Ultimate GEN-MD Forwarder Maker for 3DS"; Flags: ignoreversion; Components: MegaDrive
 Source: "{#BASE_DIR}\NES\*"; DestDir: "{app}\Ultimate NES VC Injector for 3DS"; Flags: ignoreversion; Components: NES
 Source: "{#BASE_DIR}\SNES\*"; DestDir: "{app}\Ultimate SNES VC Injector for 3DS"; Flags: ignoreversion; Components: SNES
+Source: "{#BASE_DIR}\SNESFWDM\*"; DestDir: "{app}\Ultimate SNES Forwarder Maker for 3DS"; Flags: ignoreversion; Components: SNESFWDM
 Source: "{#BASE_DIR}\T16-PCE\*"; DestDir: "{app}\Ultimate T16-PCE VC Injector for 3DS"; Flags: ignoreversion; Components: T16
 Source: "{#BASE_DIR}\Web\*"; DestDir: "{app}\Ultimate Web Forwarder Maker for 3DS"; Flags: ignoreversion; Components: Web
 
@@ -79,6 +81,9 @@ Name: "{commondesktop}\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultim
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"; Components: SNES
 Name: "{commondesktop}\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"; Tasks: desktopicon; Components: SNES
+
+Name: "{group}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS"; Filename: "{app}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS.exe"; Components: SNESFWDM
+Name: "{commondesktop}\Ultimate SNES Forwarder Maker for 3DS"; Filename: "{app}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS.exe"; Tasks: desktopicon; Components: SNESFWDM
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS"; Filename: "{app}\Ultimate T16-PCE VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS.exe"; Components: T16
 Name: "{commondesktop}\Ultimate T16-PCE VC Injector for 3DS"; Filename: "{app}\Ultimate T16-PCE VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS.exe"; Tasks: desktopicon; Components: T16
