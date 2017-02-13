@@ -1,5 +1,5 @@
 #define MyAppName "Ultimate VC Injector for 3DS"
-#define MyAppVersion "1.15"
+#define MyAppVersion "1.15.1"
 #define MyAppPublisher "Asdolo (Installer: WiiDatabase Team)"
 #define MyAppURL "https://wiidatabase.de/3ds-downloads/pc-tools/"
 
@@ -82,7 +82,7 @@ Name: "{commondesktop}\Ultimate NES VC Injector for 3DS"; Filename: "{app}\Ultim
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"; Components: SNES
 Name: "{commondesktop}\Ultimate SNES VC Injector for 3DS"; Filename: "{app}\Ultimate SNES VC Injector for 3DS\Ultimate SNES VC Injector for 3DS.exe"; Tasks: desktopicon; Components: SNES
 
-Name: "{group}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS"; Filename: "{app}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS.exe"; Components: SNESFWDM
+Name: "{group}\Ultimate VC Injector for 3DS\Ultimate SNES Forwarder Maker for 3DS"; Filename: "{app}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS.exe"; Components: SNESFWDM
 Name: "{commondesktop}\Ultimate SNES Forwarder Maker for 3DS"; Filename: "{app}\Ultimate SNES Forwarder Maker for 3DS\Ultimate SNES Forwarder Maker for 3DS.exe"; Tasks: desktopicon; Components: SNESFWDM
 
 Name: "{group}\Ultimate VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS"; Filename: "{app}\Ultimate T16-PCE VC Injector for 3DS\Ultimate T16-PCE VC Injector for 3DS.exe"; Components: T16
