@@ -1,1 +1,0 @@
-Lunar Expand Setup==================Dieses Setup installiert **[Lunar Expand](http://fusoya.eludevisibility.org/le/index.html)**. Installiert in:    %APPDATA%\Lunar-Tools\Lunar ExpandPlatziere das Release *v1.14* in den Ordner Lunar-Expand, welcher ein Unterordner dieses Ordners ist (bspw.: *Lunar Expand\Lunar-Expand\Lunar Expand.exe*).

@@ -1,1 +1,0 @@
-Lunar Magic Setup==================Dieses Setup installiert **[Lunar Magic](https://wiidatabase.de/downloads/pc-tools/lunar-magic-pc/)**. Installiert in:    %APPDATA%\Lunar-Tools\Lunar MagicPlatziere das Release *v2.42* in den Ordner Lunar-Magic, welcher ein Unterordner dieses Ordners ist (bspw.: *Lunar Magic\Lunar-Magic\Lunar Magic.exe*).
